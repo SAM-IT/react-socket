@@ -1,0 +1,20 @@
+{
+    "name": "sam-it/react-socket",
+    "require": {
+        "react/socket": "^0.4"
+    },
+    "description" : "ReactPHP Socket extension that adds proper factory support.",
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "Sam",
+            "email": "sam@mousa.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "SamIT\\React\\Socket\\" : ["src/"]
+
+        }
+    }
+}
